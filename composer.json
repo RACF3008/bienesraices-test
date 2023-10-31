@@ -1,0 +1,22 @@
+{
+    "name": "rodri/bienesraices-poo",
+    "description": "Bienes Raices con programacion orientada a objetos",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rodrigo Cruz"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\" : "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
